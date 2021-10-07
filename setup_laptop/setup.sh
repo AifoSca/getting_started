@@ -12,7 +12,5 @@ brew install tfenv #terraform
 brew install lynx #text webrowser
 brew install kubectx
 brew install kube-ps1 # necessary for bash_profile
-
-
-
+brew install kubectl 
 #ssh-keygen -t ed25519 -C "{{ email }}" # creates ssh key
