@@ -4,9 +4,11 @@
 plugin
 - [ ]  git-lens
 - [ ]  yaml
-- [ ]  vscode.icons
+- [ ]  vscode-icons
+- [ ]  markdown-lint
 
-settings → search rulers: open settings.yaml
+
+settings → search rulers: open settings.json
 
 ```
 {
@@ -34,7 +36,25 @@ settings → search rulers: open settings.yaml
 
 ## ITerm set-up
 
-Session > Edit Session >Terminal > unlimited scrollback
+First things first:
+
+- Session > Edit Session >Terminal > unlimited scrollback
+
+Second thing
 
 VERY IMPORTANT ITERM2 !!!
 [https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
+
+- ITerm go to profiles -> Edit Profile -> Key -> Key Mappings
+
+Add
+Firs One
+
+> Keyboard Shortcut: ⌥→
+> Action: Send Escape Sequence
+> Esc+: f
+
+Second One
+> Keyboard Shortcut: ⌥←
+> Action: Send Escape Sequence
+> Esc+: b
