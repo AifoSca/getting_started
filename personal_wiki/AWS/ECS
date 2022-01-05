@@ -1,0 +1,22 @@
+## Login ECR
+
+`` aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 210691520319.dkr.ecr.us-east-2.amazonaws.com``
+
+## Understand docker layers
+
+```dive <docker-image>```
+
+https://github.com/wagoodman/dive
+
+## Login into ecr docker (easy with fargate)
+
+``` aws ecs execute-command  \
+    aws ecs execute-command  \
+    --region us-east-2 \
+    --cluster atlantis \
+    --task 4b08a31d28d74a9bbdd698be573f02f1 \
+    --container atlantis \
+    --command "/bin/bash" \
+    --interactive 
+```
+
